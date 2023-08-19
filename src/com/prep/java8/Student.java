@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
-
+// JAVA 8 Practice
 public class Student {
 	
 	public static void main(String [] args) {

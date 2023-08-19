@@ -1,6 +1,6 @@
 package com.prep.java8;
 
-
+//Singleton Design pattern practice 
 public class Singleton {
 	
 	private static Singleton instance;
