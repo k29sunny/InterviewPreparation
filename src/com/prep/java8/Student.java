@@ -7,7 +7,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
-// JAVA 8 Practice
 public class Student {
 	
 	public static void main(String [] args) {
@@ -19,20 +18,6 @@ public class Student {
 		student.put(2, "EFGH");
 		student.put(3, "IJKL");
 		student.put(4, "ABCD");
-		
-		/*for(Entry<Integer, String> stu:student.entrySet()) {
-			
-			System.out.println("Key :"+stu.getKey()+"Value :"+stu.getValue());
-			
-		}*/
-		
-		
-		//student.entrySet().stream().forEach(e ->  System.out.println(e.getKey()+" and "+e.getValue()));
-		
-		// student.entrySet().stream().filter(e -> e.getKey() > 2).forEach(e-> System.out.println(e.getKey()+" and "+ e.getValue()));
-		
-		//filteList.entrySet().stream().forEach(e-> System.out.println(e.getKey()+" and "+ e.getValue()));
-		 
 		 
 		 Integer num = numbers.stream().filter(n-> n%2 !=0).mapToInt(Integer::intValue).sum();
 		
